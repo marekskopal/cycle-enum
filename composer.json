@@ -1,0 +1,56 @@
+{
+    "name": "marekskopal/cycle-decimal",
+    "type": "library",
+    "description": "Syntax sugar for using Enum column type in Cycle ORM.",
+    "keywords": [
+        "cycle",
+        "enum",
+        "orm",
+        "cycle-orm",
+        "ext-decimal"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Skopal",
+            "homepage": "https://www.marekskopal.cz"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "cycle/orm": "^2.7",
+        "cycle/annotated": "^4.1"
+    },
+    "require-dev": {
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-deprecation-rules": "^1.1",
+        "phpstan/phpstan-phpunit": "^1.3",
+        "phpstan/phpstan-strict-rules": "^1.5",
+        "phpunit/phpunit": "^10.2",
+        "slevomat/coding-standard": "^8.14",
+        "spatie/ray": "^1.39",
+        "tomasvotruba/cognitive-complexity": "^0.2.3",
+        "tomasvotruba/unused-public": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarekSkopal\\Cycle\\Enum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarekSkopal\\Cycle\\Enum\\Tests\\": [
+                "tests/"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "php-http/discovery": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    }
+}
