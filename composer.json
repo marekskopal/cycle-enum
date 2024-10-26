@@ -1,5 +1,5 @@
 {
-    "name": "marekskopal/cycle-decimal",
+    "name": "marekskopal/cycle-enum",
     "type": "library",
     "description": "Syntax sugar for using Enum column type in Cycle ORM.",
     "keywords": [
